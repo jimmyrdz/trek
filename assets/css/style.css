@@ -1,0 +1,347 @@
+/* BODY */
+body, html{
+    margin: 0;
+    background-color: #EFFFFA;
+    height: 100%;
+}   
+.row {
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* MASTHEAD (Nav area) */
+nav {
+    height: 190px;
+    text-align: center;
+    background-color: #7568FF;
+    color: whitesmoke;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+
+#navLogo {
+    padding-top: 6px;
+}
+
+#navTagline {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.075em;
+    word-spacing: 0.05em;
+}
+
+#navMasthead,
+#search-weather {
+    margin: 0;
+}
+
+/* LANDING PAGE - SEARCH section */
+h1 {
+    font-family: 'BioRhyme', serif;
+    font-size: 42px;
+    color: #FFFFFF;
+    text-shadow: -2px 2px #7568FF;
+    text-align: center;
+    padding-top: 60px;  
+}
+
+#searchSection {
+    text-align: center;
+    /* background-image: url("../images/sean-o-406693-unsplash.jpg");  */
+/*   background-image: url("../images/casey-horner-370520-unsplash.jpg"); */
+   background-image: url("../images/scott-osborn-1615057-unsplash.jpg");
+    /*    background-image: url("../images/alex-collins-1605474-unsplash.jpg"); */
+    /*    background-image: url("../images/john-matychuk-284377-unsplash.jpg"); */
+    background-size: cover;
+    /* height: 400px; */
+}
+
+
+
+#searchPara {
+    font-family: 'Signika', sans-serif;
+    font-size: 21px;
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px black;
+    padding: 5px 0px 10px 0px;
+}
+
+#searchInput {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    /* width: 65%; */
+    /* margin-left: 18%;
+    margin-top: 20px; */
+    text-align: center;
+    font-style: bold;
+    border: 1.5px solid #7568FF;
+    color: #7568FF;
+    max-width: none;
+}
+
+#searchButton {
+    background-color: #7568FF;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    border: 1px solid #E5ECF4;
+    margin-bottom: 5%;
+}
+
+#searchButton:hover {
+    color: chartreuse;
+}
+
+    /* Code to bottom and top align two sections and reduce white space between them
+#searchSection,
+#weatherForecast {
+    margin: 0;
+    width:100%;
+    height: 100%;
+} */
+
+
+/* WEATHER section rule for head */
+h3 {
+    font-family: 'BioRhyme', serif;
+    font-size: 27px;
+    color: black;
+    text-align: center;
+}
+
+#weatherForecast {
+    background-color: #C3BEF7;
+    background-size: 100%;
+    border: 1px solid #E5ECF4;
+        /*    background-image: url("../images/joshua-earle-117661-unsplash.jpg");  */
+        /*    margin-top: 40px; */
+}
+#weatherHeader {
+    font-family: 'Signika', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.sectionRule {
+    height: 27px;
+    background-color: #C3BEF7;
+    color: #EFFFFA;
+}
+
+#tempText {
+    font-family: 'BioRhyme', serif;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    /* padding: 5%; */
+    /* margin-top: 10px;   */
+}
+
+
+/* SECTION HEADER styles */
+h2 {
+    font-family: 'BioRhyme', serif;
+    font-size: 36px;
+    color: #7568FF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro-text {
+    font-family: 'BioRhyme', serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#sectionHeaders {
+    background-color: #E5ECF4;
+}
+
+
+/* CARD styles */
+h5 {
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+    /* Add rounded corners to the top left and the top right corner of the card image */
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.card {
+    background-color: white;
+    padding: 10px 16px;
+    border: 1px solid #E5ECF4;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    /* margin-top: 5px; */
+    /* margin-bottom: 25px; */
+}
+
+    /* On card mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card-body {
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    
+}
+
+.card-img-top{
+    /* width: 50%; */
+    /* height: 25%; */
+    width: 150.5px;
+    height: 150.5px;
+    /* size: cover; */
+}
+
+
+.card-text {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
+
+li{
+    background-color: black !important; 
+}
+
+
+a {
+    text-align: center;
+}
+
+#error {
+    color: white;
+    font-weight: bold;
+}
+
+
+.carousel-control-next, .carousel-control-prev{
+    background-color: rgba(124, 124, 124, 0.37);
+    width: 5%;
+}
+
+.btn-secondary {
+    background-color: #7568FF;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 1px solid #E5ECF4;
+    color: #EFFFFA;
+    vertical-align: center;
+    
+}
+
+.btn-secondary:hover {
+    color: chartreuse;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+    #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
+    #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
+    #cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
+    #cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left;}
+    #cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
+    #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
+    #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
+    #cboxContent{background:#fff; overflow:visible;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:5px;}
+        #cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
+        #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible;  position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxPrevious{left:0px; background-position: -51px -25px;}
+        #cboxPrevious:hover{background-position:-51px 0px;}
+        #cboxNext{left:27px; background-position:-75px -25px;}
+        #cboxNext:hover{background-position:-75px 0px;}
+        #cboxClose{right:0; background-position:-100px -25px;}
+        #cboxClose:hover{background-position:-100px 0px;}
+
+        .cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+        .cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+        .cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0px;}
+
+       
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7568FF;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 400px) {
+    .card-img-top{
+        /* width: 50%; */
+        /* height: 25%; */
+        width: 50.5px;
+        height: 50.5px;
+        /* size: cover; */
+    }
+  }
